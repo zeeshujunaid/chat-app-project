@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 .main-cointainer{
     display: flex;
@@ -174,15 +175,12 @@ button {
     text-align: right;
     padding-top: 10px;
     text-decoration: solid;
-    font-size: xx-large;
+  padding-right: 15px;
+  font-size: 22px !important;
 }
-#ai p{
-   font-size: smaller;
-   display: flex;
-   flex-direction: row;
-   font-weight: lighter;
-   font-style: oblique;
- }
+#ai{
+  padding-left: 15px;
+}
 .left-side-contact-list-main-cointainer :hover{
     background-color: rgb(163, 165, 167)
 }
